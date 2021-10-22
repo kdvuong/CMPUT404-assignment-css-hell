@@ -1,0 +1,23 @@
+body {
+  background: red;
+}
+h1 {
+  color: black;
+  animation: grow 2s linear infinite;
+}
+
+p {
+  color: blue;
+}
+
+@keyframes grow {
+  0% {
+    font-size: 40px;
+  }
+  50% {
+    font-size: 60px;
+  }
+  100% {
+    font-size: 40px;
+  }
+}
